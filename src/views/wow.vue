@@ -9,20 +9,21 @@
     <kucukorta />
     <div class="recommended">
       <div class="rec-in">
-        <p>RECOMMENDED</p>
+        <p>Great for New Players</p>
+        <p>New to World of Warcraft? Start here.</p>
 
-        <kutu />
+        <wowkutu />
       </div>
     </div>
   </div>
 </template>
 <script>
 import kucukorta from "@/components/kucukorta.vue";
-import kutu from "@/components/kutular.vue";
+import wowkutu from "@/components/wowkutu.vue";
 export default {
   name: "home",
 
-  components: { kutu, kucukorta }
+  components: { wowkutu, kucukorta }
 };
 </script>
 <style scoped>

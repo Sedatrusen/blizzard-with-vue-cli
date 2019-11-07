@@ -22,7 +22,7 @@ export default {
 <style>
 #app {
   width: 100%;
-
+  height: 100%;
   background-repeat: initial;
   background-size: 100% 100%;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;

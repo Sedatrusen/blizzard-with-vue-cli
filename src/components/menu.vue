@@ -29,39 +29,39 @@
           </router-link>
           <div class="dropdown-content" v-show="show">
             <div class="yazi">BLIZZARD GAMES</div>
-            <router-link to="/wow" href="#">
+            <router-link to="/wow">
               <img class="resimler" src="../assets/wwkucuk.svg" alt />World of Warcraft
             </router-link>
-            <router-link to="/" href="#">
+            <router-link to="/">
               <img class="resimler" src="../assets/overwatch.svg" alt />Overwatch
             </router-link>
-            <router-link to="/" href="#">
+            <router-link to="/">
               <img class="resimler" src="../assets/diablo-iii.svg" alt />Diablo III
             </router-link>
-            <router-link to="/" href="#">
+            <router-link to="/">
               <img class="resimler" src="../assets/hearthstone.svg" alt />Hearthstone
             </router-link>
-            <router-link to="/" href="#">
+            <router-link to="/">
               <img class="resimler" src="../assets/heroes-of-the-storm.svg" alt />Heroes Of The Storm
             </router-link>
-            <router-link to="/" href="#">
+            <router-link to="/">
               <img class="resimler" src="../assets/starcraft-ii.svg" alt />Starcraft II
             </router-link>
-            <router-link to="/" href="#">
+            <router-link to="/">
               <img class="resimler" src="../assets/starcraft-remastered.svg" alt />Starcraft
             </router-link>
-            <router-link to="/" href="#">
+            <router-link to="/">
               <img class="resimler" src="../assets/diablo-ii.svg" alt />Diablo II
             </router-link>
-            <router-link to="/" href="#">
+            <router-link to="/">
               <img class="resimler" src="../assets/warcraft-iii.svg" alt /> Warcraft III
             </router-link>
 
             <div class="yazi">PARTNER GAMES</div>
-            <router-link to="/" href="#">
+            <router-link to="/">
               <img class="resimler" src="../assets/call-of-duty-mw.svg" alt />Call of Duty:MW
             </router-link>
-            <router-link to="/" href="#">
+            <router-link to="/">
               <img class="resimler" src="../assets/call-of-duty.svg" alt />Call of Duty:BO4
             </router-link>
           </div>
@@ -73,9 +73,9 @@
           </router-link>
 
           <div class="dropdown-content">
-            <router-link to="/" href="#">Battletag Chance</router-link>
-            <router-link to="/" href="#">BlizzCon Ticket</router-link>
-            <router-link to="/" href="#">Reedem Code</router-link>
+            <router-link to="/">Battletag Chance</router-link>
+            <router-link to="/">BlizzCon Ticket</router-link>
+            <router-link to="/">Reedem Code</router-link>
           </div>
         </li>
         <li>
@@ -139,12 +139,12 @@
             <i class="fas fa-angle-down"></i>
           </router-link>
           <div class="dropdown-content">
-            <router-link to="/" href="#">Add balance</router-link>
-            <router-link to="/" href="#">Gift balance</router-link>
-            <router-link to="/" href="#">Reedem Code</router-link>
-            <router-link to="/" href="#">Add Pre-Paid card</router-link>
-            <router-link to="/" href="#">Balance History</router-link>
-            <router-link to="/" href="#">Balance help</router-link>
+            <router-link to="/">Add balance</router-link>
+            <router-link to="/">Gift balance</router-link>
+            <router-link to="/">Reedem Code</router-link>
+            <router-link to="/">Add Pre-Paid card</router-link>
+            <router-link to="/">Balance History</router-link>
+            <router-link to="/">Balance help</router-link>
           </div>
         </li>
       </ul>
