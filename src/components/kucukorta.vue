@@ -21,12 +21,8 @@ export default {};
 </script>
 
 <style>
-.aralık-simge {
-  transition: width 10ms;
-}
 .aralık-simge:hover {
-  width: 45px;
-  height: 45px;
+  transform: scale(1.1);
 }
 .aralık {
   width: 100%;

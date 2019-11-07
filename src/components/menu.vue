@@ -23,13 +23,13 @@
           </router-link>
         </li>
         <li class="dropdown">
-          <router-link to="/" href="javascript:void(0)" class="dropbtn">
+          <router-link v-on:click="kapa" to="/" class="dropbtn">
             Games
             <i class="fas fa-angle-down"></i>
           </router-link>
-          <div class="dropdown-content">
+          <div class="dropdown-content" v-show="show">
             <div class="yazi">BLIZZARD GAMES</div>
-            <router-link to="/" href="#">
+            <router-link to="/wow" href="#">
               <img class="resimler" src="../assets/wwkucuk.svg" alt />World of Warcraft
             </router-link>
             <router-link to="/" href="#">
@@ -134,7 +134,7 @@
           </router-link>
         </li>
         <li class="dropdown">
-          <router-link to="/" href="javascript:void(0)" class="dropbtn">
+          <router-link to="/" class="dropbtn">
             Blizard Balance
             <i class="fas fa-angle-down"></i>
           </router-link>
@@ -153,7 +153,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return { show: true };
+  },
+  methods: {
+    kapa: function() {
+      if (this.show == true) {
+        this.show = false;
+      } else {
+        this.show = true;
+      }
+    }
+  }
+};
 </script>
 
 <style  scoped>
