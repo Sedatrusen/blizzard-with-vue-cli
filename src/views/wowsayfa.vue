@@ -4,7 +4,10 @@
       <img src="../assets/wowlogo.png" alt />
 
       <div class="grid-container">
-        <div class="grid-item">1</div>
+        <div class="grid-item">
+          <img id="wowlogo" src="../assets/recwow.svg" alt />
+          <scan>World of Warcraft®: Subscription</scan>
+        </div>
         <div class="grid-item">2</div>
         <div class="grid-item">3</div>
         <div class="grid-item">4</div>
@@ -33,7 +36,6 @@ export default {};
 }
 .kontanyir {
   text-align: center;
-  align-items: center;
   margin-right: 10%;
   margin-top: 2%;
   float: right;
@@ -41,18 +43,21 @@ export default {};
   height: 900px;
 }
 .grid-container {
-  margin-top: 10%;
+  margin-top: 40%;
   width: 100%;
   display: grid;
   grid-template-columns: auto;
-  background-color: #2196f3;
-  padding: 10px;
+  background-color: #142435;
 }
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+  height: 100px;
+  font-size: 20px;
+  color: white;
+}
+#wowlogo {
+  margin: 0;
+  float: left;
+  width: 60px;
+  height: 60px;
 }
 </style>
