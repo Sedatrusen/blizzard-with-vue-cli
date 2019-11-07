@@ -6,6 +6,7 @@
       <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>
     </div>
+
     <router-view />
   </div>
 </template>
@@ -18,4 +19,7 @@ export default {
 </script>
 
 <style>
+#app {
+  background-image: url("assets/left.png");
+}
 </style>

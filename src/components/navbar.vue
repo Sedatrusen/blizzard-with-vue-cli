@@ -47,11 +47,14 @@
         <!-- Her harfi tek tek resim olarak koymuşlar.Bende ordan bakarak yaptım. -->
       </svg>
       <div>
-        <router-link class="label" to="/" href="http://index.html">SHOP</router-link>
+        <router-link class="label" to="/">SHOP</router-link>
       </div>
       <div class="profile">
-        <router-link to="/" class="profil" href="http://">Support</router-link>
-        <router-link to="/" class="profil" href="http://">My Account</router-link>
+        <router-link to="/" class="profil">Support</router-link>
+        <router-link to="/" class="profil">
+          My Account
+          <i class="fas fa-angle-down"></i>
+        </router-link>
       </div>
     </div>
   </div>
@@ -60,9 +63,7 @@
 <script>
 export default {
   data() {
-    return {
-      top: require("@/assets/top.png")
-    };
+    return {};
   }
 };
 </script>
@@ -93,6 +94,10 @@ export default {
 
   white-space: nowrap;
   text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
 
 #logoharfler {
