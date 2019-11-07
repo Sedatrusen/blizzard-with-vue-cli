@@ -156,7 +156,7 @@
 export default {};
 </script>
 
-<style>
+<style  scoped>
 ul {
   height: 40px;
   background-color: #032041;
