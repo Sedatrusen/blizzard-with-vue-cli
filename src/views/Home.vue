@@ -1,15 +1,17 @@
 <template>
   <div class="home">
     <orta />
+    <kucukorta />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import orta from "@/components/orta.vue";
+import kucukorta from "@/components/kucukorta.vue";
 export default {
   name: "home",
-  components: { orta }
+  components: { orta, kucukorta }
 };
 </script>
 <style  scoped>
