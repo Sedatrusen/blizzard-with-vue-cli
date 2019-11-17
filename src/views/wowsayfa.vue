@@ -36,7 +36,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  title: "World of Warcraft®: Subscription"
+};
 </script>
 
 <style>

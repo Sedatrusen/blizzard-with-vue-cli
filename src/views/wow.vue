@@ -22,6 +22,7 @@ import kucukorta from "@/components/kucukorta.vue";
 import wowkutu from "@/components/wowkutu.vue";
 export default {
   name: "home",
+  title: "World of Warcraft I Blizzard Shop",
 
   components: { wowkutu, kucukorta }
 };

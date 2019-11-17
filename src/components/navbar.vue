@@ -51,19 +51,32 @@
       </div>
       <div class="profile">
         <router-link to="/" class="profil">Support</router-link>
-        <router-link to="/" class="profil">
+
+        <span class="profil" @click="openModal">
           My Account
           <i class="fas fa-angle-down"></i>
-        </router-link>
+        </span>
+        <modal-direction v-model="modalOpen"></modal-direction>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import ModalDirection from "../components/modal.vue";
 export default {
+  components: {
+    ModalDirection
+  },
   data() {
-    return {};
+    return {
+      modalOpen: false
+    };
+  },
+  methods: {
+    openModal() {
+      this.modalOpen = !this.modalOpen;
+    }
   }
 };
 </script>

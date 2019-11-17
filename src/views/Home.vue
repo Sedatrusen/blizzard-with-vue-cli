@@ -19,6 +19,7 @@ import kucukorta from "@/components/kucukorta.vue";
 import kutu from "@/components/kutular.vue";
 export default {
   name: "home",
+  title: "Blizzard Shop",
 
   components: { orta, kucukorta, kutu }
 };

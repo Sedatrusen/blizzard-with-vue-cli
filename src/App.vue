@@ -14,6 +14,7 @@
 import navbar from "@/components/navbar.vue";
 import menus from "@/components/menu.vue";
 import footers from "@/components/footer.vue";
+
 export default {
   components: { navbar, menus, footers }
 };

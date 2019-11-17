@@ -22,6 +22,7 @@
             </svg>Home
           </router-link>
         </li>
+
         <li class="dropdown">
           <router-link v-on:click="kapa" to="/" class="dropbtn">
             Games
@@ -155,7 +156,9 @@
 <script>
 export default {
   data() {
-    return { show: true };
+    return {
+      show: true
+    };
   },
   methods: {
     kapa: function() {
@@ -170,6 +173,9 @@ export default {
 </script>
 
 <style  scoped>
+.container {
+  position: relative;
+}
 ul {
   height: 40px;
   background-color: #032041;
