@@ -1,14 +1,21 @@
 <template>
   <div class="benim" v-show="value">
-    <div>
-      <button>Log in</button>
+    <div class="dıs">
+      <router-link class="ic" to="/login">
+        <button>Log in</button>
+      </router-link>
     </div>
     <div>
-      <div>
-        <router-link to="/">Account Setting</router-link>
+      <div class="dıs">
+        <router-link class="ic" to="/account">
+          <i class="fas fa-cog"></i>Account Setting
+        </router-link>
       </div>
-      <div>
-        <router-link to="/">Account Setting</router-link>
+      <div class="dıs">
+        <router-link class="ic" to="/">
+          <i class="fas fa-user-plus"></i>
+          Create Free Account
+        </router-link>
       </div>
     </div>
   </div>
@@ -33,14 +40,15 @@ export default {
 
     <style  >
 .benim {
+  margin-top: 10px;
   position: relative;
   align-self: auto;
   left: 80%;
   text-align: center;
   z-index: 20;
   right: 100px;
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 150px;
   background-color: #142435;
 }
 .benim button {
@@ -54,5 +62,23 @@ export default {
 }
 .benim button:hover {
   background-color: #2ea1e4;
+}
+.benim div {
+  vertical-align: middle;
+  height: 50px;
+}
+.dıs {
+  display: table;
+}
+.ic {
+  display: table-cell;
+  vertical-align: middle;
+  /* Div içerisindeki yazıyı yatay olarak ortalamak için text-align:center özelliğini kullanıyorum.
+  http://www.sinanbozkus.com/css-ile-dikey-ortalama-vertical-align/ */
+  text-align: center;
+}
+.benim a {
+  text-decoration: none;
+  color: rgb(180, 175, 175);
 }
 </style>
