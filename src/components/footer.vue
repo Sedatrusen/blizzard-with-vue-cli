@@ -22,7 +22,9 @@
       <p>All trademarks referenced herein are the properties of their respective owners.</p>
       <ul>
         <li>PRIVACY</li>
-        <li>LEGAL</li>
+        <router-link to="/legal">
+          <li>LEGAL</li>
+        </router-link>
         <li>TERMS</li>
         <li>COOKIES</li>
       </ul>
@@ -49,6 +51,11 @@ export default {
 
 <style >
 /*https://www.w3schools.com/howto/howto_css_fixed_footer.asp-*/
+
+a {
+  text-decoration: none;
+  color: grey;
+}
 .footer {
   position: fixed;
   left: 0;

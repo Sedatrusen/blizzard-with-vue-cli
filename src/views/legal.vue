@@ -18,6 +18,7 @@
 <script>
 import navbar from "@/components/navbarlegal.vue";
 export default {
+  title: "Blizzard Legal",
   components: { navbar }
 };
 </script>
@@ -28,7 +29,7 @@ html {
   background-image: url("../assets/legalarkafon.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgb(1, 32, 61);
+  background-color: rgb(2, 38, 71);
 }
 #h1 {
   margin-top: 30%;
@@ -40,7 +41,5 @@ html {
 }
 .liste ul {
   list-style-type: none;
-}
-.liste li {
 }
 </style>
