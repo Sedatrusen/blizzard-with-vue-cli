@@ -82,6 +82,9 @@ export default {
 </script>
 
 <style  scoped>
+template {
+  background-image: url("../assets/left.png");
+}
 .top {
   width: 1600px;
   margin-left: 10%;

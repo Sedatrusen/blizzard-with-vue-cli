@@ -22,13 +22,14 @@ export default {
 
 <style>
 #app {
+  background-image: url("assets/left.png");
   width: 100%;
   height: 100%;
   background-repeat: initial;
-  background-size: 100% 100%;
+  background-size: cover;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: rgba(119, 116, 116, 0.8);
-  background-image: url("assets/left.png");
+
   width: 100%;
   height: 100%;
 

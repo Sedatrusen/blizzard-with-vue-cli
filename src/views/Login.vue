@@ -34,7 +34,7 @@
         <a class="others" href="account.html">Create a free Blizzard Accoun</a>
       </div>
       <div class="emailout">
-        <a class="others" href>Can't log in?</a>
+        <router-link to="/cantlog" class="others">Can't log in?</router-link>
       </div>
     </div>
   </div>
@@ -42,6 +42,7 @@
 
 <script>
 export default {
+  title: "Blizzard Login",
   data() {
     return {
       show: false
@@ -57,17 +58,17 @@ export default {
 };
 </script>
 
-<style>
+<style >
 body {
   width: 100%;
-  height: 100%;
+  height: 1000px;
   background-color: black;
   background-image: url(../assets/loginarkaplan.jpg);
   font-family: "Blizzard", "Arial", "Helvetica", "Segoe UI Symbol",
     "Segoe MDL2 Assets", sans-serif;
   font-size: 15px;
   line-height: 20px;
-  text-align: center;
+
   z-index: 1;
 }
 a {
@@ -79,6 +80,7 @@ a:hover {
 }
 
 .ortalama {
+  text-align: center;
   margin-left: 20%;
   margin-right: 20%;
   height: 100%;

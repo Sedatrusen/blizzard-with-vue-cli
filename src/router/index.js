@@ -44,6 +44,24 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/account.vue")
+  },
+  {
+    path: "/cantlog",
+    name: "cantlog",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/cantlog.vue")
+  },
+  {
+    path: "/cantlogin",
+    name: "cantlogin",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/cantlogin.vue")
   }
 ];
 

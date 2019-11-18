@@ -126,6 +126,7 @@
 
 <script>
 export default {
+  title: "Blizzard Account",
   data() {
     return {
       namecolor: "rgba(255,255,255,0.3)",
@@ -185,7 +186,7 @@ export default {
 <style>
 body {
   width: 100%;
-  height: 100%;
+  height: 1400px;
   background-color: black;
   background-image: url(../assets/loginarkaplan.jpg);
   font-family: "Blizzard", "Arial", "Helvetica", "Segoe UI Symbol",

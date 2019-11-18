@@ -7,12 +7,12 @@
     </div>
     <div>
       <div class="dıs">
-        <router-link class="ic" to="/account">
+        <router-link class="ic" to="/login">
           <i class="fas fa-cog"></i>Account Setting
         </router-link>
       </div>
       <div class="dıs">
-        <router-link class="ic" to="/">
+        <router-link class="ic" to="/account">
           <i class="fas fa-user-plus"></i>
           Create Free Account
         </router-link>
