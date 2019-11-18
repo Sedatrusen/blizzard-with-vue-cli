@@ -1,7 +1,3 @@
-<script>
-export default {};
-</script>
-
 <template>
   <div id="app">
     <div id="nav">
@@ -9,6 +5,9 @@ export default {};
     </div>
   </div>
 </template>
+<script>
+export default {};
+</script>
 <style>
 template {
   width: 1000px;

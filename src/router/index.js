@@ -53,6 +53,12 @@ export default new VueRouter({
       name: "cantlogin",
 
       component: () => import("../views/cantlogin.vue")
+    },
+    {
+      path: "/legal",
+      name: "legal",
+      meta: { layout: "no-sidebar" },
+      component: () => import("../views/legal.vue")
     }
   ]
 });

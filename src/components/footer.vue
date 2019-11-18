@@ -20,6 +20,12 @@
 
       <P>©2019 BLIZZARD ENTERTAINMENT, INC. ALL RIGHTS RESERVED.</P>
       <p>All trademarks referenced herein are the properties of their respective owners.</p>
+      <ul>
+        <li>PRIVACY</li>
+        <li>LEGAL</li>
+        <li>TERMS</li>
+        <li>COOKIES</li>
+      </ul>
     </div>
   </div>
 </template>
