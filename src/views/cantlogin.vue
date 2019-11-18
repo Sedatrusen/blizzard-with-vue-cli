@@ -4,6 +4,13 @@
       <div id="logo">
         <img src="../assets/blizzlogo.png" alt />
       </div>
+      <div class="emailout">
+        <h1>Can't log in</h1>
+      </div>
+
+      <div class="emailout">
+        <p>We are sorry! There are several reasons you might not be able to log in. Check below for more information and possible solutions.</p>
+      </div>
       <div id="login">
         <div class="../assets/emailout" v-show="show">
           <p class="uyarı">This field is required.</p>
@@ -11,6 +18,9 @@
 
         <div class="../assets/emailout">
           <input v-model="email" type="text" placeholder="Email or Phone" />
+        </div>
+        <div class="emailout">
+          <button v-on:click="tiklama(email,password)">Contunue</button>
         </div>
       </div>
     </div>

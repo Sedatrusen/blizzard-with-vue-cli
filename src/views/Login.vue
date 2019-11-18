@@ -9,13 +9,13 @@
           <p class="uyarı">Please enter your account.</p>
         </div>
 
-        <div class="../assets/emailout">
+        <div class="emailout">
           <input v-model="email" type="text" placeholder="Email or Phone" />
         </div>
-        <div class="../assets/emailout">
+        <div class="emailout">
           <input v-model="password" type="text" placeholder="Password" />
         </div>
-        <div class="../assets/emailout">
+        <div class="emailout">
           <button v-on:click="tiklama(email,password)">Log In</button>
         </div>
       </div>

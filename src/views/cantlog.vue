@@ -12,9 +12,11 @@
     </div>
 
     <ul>
-      <li>
-        <img src="../assets/1.png" alt /> I don't know my password
-      </li>
+      <router-link to="/cantlogin">
+        <li>
+          <img src="../assets/1.png" alt /> I don't know my password
+        </li>
+      </router-link>
       <li>
         <img src="../assets/2.png" alt />My blizzard account is locked
       </li>
