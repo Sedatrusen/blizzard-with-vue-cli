@@ -1,40 +1,29 @@
+  
 <template>
   <div id="app">
-    <div id="nav">
-      <navbar />
-      <menus></menus>
-    </div>
-
-    <router-view />
-
-    <footers />
+    <component :is="layout">
+      <router-view />
+    </component>
   </div>
 </template>
 <script>
-import navbar from "@/components/navbar.vue";
-import menus from "@/components/menu.vue";
-import footers from "@/components/footer.vue";
-
+const default_layout = "default";
 export default {
-  components: { navbar, menus, footers }
+  computed: {
+    layout() {
+      return (this.$route.meta.layout || default_layout) + "-layout";
+    }
+  },
+  created() {
+    // nothing defined here (when this.$route.path is other than "/")
+    window.console.log(this.$route, this.$route.meta.layout);
+  },
+  updated() {
+    // something defined here whatever the this.$route.path
+    window.console.log(this.$route, this.$route.meta.layout);
+  }
 };
 </script>
 
 <style>
-#app {
-  background-image: url("assets/left.png");
-  width: 100%;
-  height: 100%;
-  background-repeat: initial;
-  background-size: cover;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  color: rgba(119, 116, 116, 0.8);
-
-  width: 100%;
-  height: 100%;
-
-  background-repeat: initial;
-  background-size: cover;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-}
 </style>
